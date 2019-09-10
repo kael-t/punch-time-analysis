@@ -1,6 +1,6 @@
 # electron-demo
 
-> a electron demo
+> 一个基于electron-vue开发的考勤记录分析, 学习electron用, 也为了帮朋友减轻考勤数据分析的工作量
 
 #### Build Setup
 
