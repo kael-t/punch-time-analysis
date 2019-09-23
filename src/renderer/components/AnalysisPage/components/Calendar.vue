@@ -128,7 +128,7 @@ export default {
               value: cur,
               date: dayjs()
                 .set('month', month)
-                .set('date', cur += 1)
+                .set('date', cur)
                 .format('YYYY/MM/DD'),
               show: false,
               term: 'A',
@@ -137,6 +137,7 @@ export default {
               status: null,
               msg: '',
             } : temp;
+            cur += 1;
           }
         }
         result.push(arr);
